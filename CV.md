@@ -1,6 +1,6 @@
-# Gumerova Elena  
+# `Gumerova Elena`  
 > ### Junior Frontend Developer
-### :wave: Contacts
+### :wave: `Contacts`
 ***
 
 * [<img align="left" alt="Elena Gumerova phone" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/old-typical-phone.svg" />][phone]&nbsp;&nbsp;+7&nbsp;9270&nbsp;33&nbsp;73&nbsp;65  
@@ -8,15 +8,15 @@
 * [<img align="left" alt="Elena Gumerova linkedin" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/linkedin.svg" />][linkedin]&nbsp;&nbsp;elenafrontend  
 * [<img align="left" alt="Elena Gumerova email" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/email.svg" />][email]&nbsp;&nbsp;elenafrontend@ya.ru  
 
-### :smiley: Summary  
+### :smiley: `Summary`  
 ***
 
 I like to code things from scratch, and enjoy bringing ideas to life in the browser. Interested in working on ambitious projects with positive people. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself and do interesting things.
 
-### :hammer_and_wrench: Skills  
+### :hammer_and_wrench: `Skills`  
 ***
 
-Tech Stack:  
+**Tech Stack:**  
 
 ![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-badge&logo=html5)&nbsp;
 ![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-badge&logo=css3&logoColor=1572B6)&nbsp;
@@ -24,7 +24,7 @@ Tech Stack:
 ![Javascript](https://img.shields.io/badge/Javascript-333333?style=for-the-badge&logo=javascript)&nbsp;
 ![Vue](https://img.shields.io/badge/Vue-333333?style=for-the-badge&logo=vuedotjs)&nbsp;  
 
-Tools:  
+**Tools:**  
 
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)&nbsp;
@@ -34,7 +34,7 @@ Tools:
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=for-the-badge&logo=figma)&nbsp;
 ![Bash](https://img.shields.io/badge/-Bash-333333?style=for-the-badge&logo=gnubash)&nbsp;
 
-### :computer: Code examples  
+### :computer: `Code examples`  
 ***
 Get the Middle Character
 
@@ -47,7 +47,7 @@ Get the Middle Character
 	}
 
 
-### :bar_chart: Statistic
+### :bar_chart: `Statistic`
 ***  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=elenafrontend&theme=nord&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
@@ -58,15 +58,15 @@ Get the Middle Character
 [linkedin]: https://www.linkedin.com/in/elenafrontend/ "linkedin"
 [email]: https://www.linkedin.com/in/elenafrontend/ "email"
 
-### :books: Education
+### :books: `Education`
 ***  
 
-* ### `Htmlacademy` (12/2020 ‐ 03/2021)  
+* **Htmlacademy** *(12/2020 ‐ 03/2021)*  
   Training simulators of skills for web development: html, css, javascript, svg, less, animation
-* ### `Innopolis` (11/2020)  
+* **Innopolis** *(11/2020)*  
   Basics of programming: java, php, database, development methodologies
-* ### `Coursera - Yandex` (05/2020 ‐ 06/2020)  
+* **Coursera - Yandex** *(05/2020 ‐ 06/2020)*  
   Basics of html and css, Subtleties of layout
-* ### :school: `Academy of Public Administration` (2004 ‐ 2009)  
+* :school: **Academy of Public Administration** *(2004 ‐ 2009)*  
   BA in nance and credit
 
