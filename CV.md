@@ -46,17 +46,10 @@ Get the Middle Character
     	: s[middle]
 	}
 
-
 ### :bar_chart: `Statistic`
 ***  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=elenafrontend&theme=nord&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-
-[phone]: tel:+79270337365 "mobile"
-[telegram]: https://t.me/elenafrontend "telegram"
-[linkedin]: https://www.linkedin.com/in/elenafrontend/ "linkedin"
-[email]: https://www.linkedin.com/in/elenafrontend/ "email"
 
 ### :books: `Education`
 ***  
@@ -91,3 +84,8 @@ Managed and maintained a portfolio of over 200 business clients
   *International Center of Business Education*  
   Pre-Intermediate level
 
+<!-- ID -->
+[phone]: tel:+79270337365 "mobile"
+[telegram]: https://t.me/elenafrontend "telegram"
+[linkedin]: https://www.linkedin.com/in/elenafrontend/ "linkedin"
+[email]: mailto:elenafrontend@ya.ru "email"
