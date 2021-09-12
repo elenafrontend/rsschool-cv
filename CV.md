@@ -57,3 +57,16 @@ Get the Middle Character
 [telegram]: https://t.me/elenafrontend "telegram"
 [linkedin]: https://www.linkedin.com/in/elenafrontend/ "linkedin"
 [email]: https://www.linkedin.com/in/elenafrontend/ "email"
+
+### :books: Education
+***  
+
+* ### `Htmlacademy` (12/2020 ‐ 03/2021)  
+  Training simulators of skills for web development: html, css, javascript, svg, less, animation
+* ### `Innopolis` (11/2020)  
+  Basics of programming: java, php, database, development methodologies
+* ### `Coursera - Yandex` (05/2020 ‐ 06/2020)  
+  Basics of html and css, Subtleties of layout
+* ### :school: `Academy of Public Administration` (2004 ‐ 2009)  
+  BA in nance and credit
+
