@@ -13,8 +13,26 @@
 
 I like to code things from scratch, and enjoy bringing ideas to life in the browser. Interested in working on ambitious projects with positive people. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself and do interesting things.
 
+### :hammer_and_wrench: Skills  
+***
 
-Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself and do interesting things.
+Tech Stack:  
+
+![HTML](https://img.shields.io/badge/HTML-333333?style=for-the-badge&logo=html5)&nbsp;
+![CSS](https://img.shields.io/badge/CSS-333333?style=for-the-badge&logo=css3&logoColor=1572B6)&nbsp;
+![Sass](https://img.shields.io/badge/Sass-333333?style=for-the-badge&logo=sass)&nbsp;
+![Javascript](https://img.shields.io/badge/Javascript-333333?style=for-the-badge&logo=javascript)&nbsp;
+![Vue](https://img.shields.io/badge/Vue-333333?style=for-the-badge&logo=vuedotjs)&nbsp;  
+
+Tools:  
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github)&nbsp;
+![Trello](https://img.shields.io/badge/-Trello-333333?style=for-the-badge&logo=trello&logoColor=0052CC)&nbsp;
+![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=for-the-badge&logo=adobe-photoshop)&nbsp;
+![Figma](https://img.shields.io/badge/-Figma-333333?style=for-the-badge&logo=figma)&nbsp;
+![Bash](https://img.shields.io/badge/-Bash-333333?style=for-the-badge&logo=gnubash)&nbsp;
+
 
 [phone]: tel:+79270337365 "mobile"
 [telegram]: https://t.me/elenafrontend "telegram"
