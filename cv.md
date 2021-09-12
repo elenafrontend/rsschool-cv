@@ -1,6 +1,7 @@
 # `Gumerova Elena`  
-> ### Junior Frontend Developer
-### :wave: `Contacts`
+> ### Junior Frontend Developer  
+
+### 👋 `Contacts`
 ***
 
 * [<img align="left" alt="Elena Gumerova phone" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/old-typical-phone.svg" />][phone]&nbsp;&nbsp;+7&nbsp;9270&nbsp;33&nbsp;73&nbsp;65  
@@ -8,12 +9,12 @@
 * [<img align="left" alt="Elena Gumerova linkedin" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/linkedin.svg" />][linkedin]&nbsp;&nbsp;elenafrontend  
 * [<img align="left" alt="Elena Gumerova email" width="22px" src="https://elenafrontend.github.io/portfolio/img/icons/email.svg" />][email]&nbsp;&nbsp;elenafrontend@ya.ru  
 
-### :smiley: `Summary`  
+### 😃 `Summary`  
 ***
 
 I like to code things from scratch, and enjoy bringing ideas to life in the browser. Interested in working on ambitious projects with positive people. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself and do interesting things.
 
-### :hammer_and_wrench: `Skills`  
+### 🛠️ `Skills`  
 ***
 
 **Tech Stack:**  
@@ -34,7 +35,7 @@ I like to code things from scratch, and enjoy bringing ideas to life in the brow
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=for-the-badge&logo=figma)&nbsp;
 ![Bash](https://img.shields.io/badge/-Bash-333333?style=for-the-badge&logo=gnubash)&nbsp;
 
-### :computer: `Code examples`  
+### 💻 `Code examples`  
 ***
 Get the Middle Character
 
@@ -46,12 +47,12 @@ Get the Middle Character
     	: s[middle]
 	}
 
-### :bar_chart: `Statistic`
+### 📊 `Statistic`
 ***  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=elenafrontend&theme=nord&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-### :books: `Education`
+### 📚 `Education`
 ***  
 
 * **Htmlacademy** *(12/2020 ‐ 03/2021)*  
@@ -63,7 +64,7 @@ Get the Middle Character
 * :school: **Academy of Public Administration** *(2004 ‐ 2009)*  
   BA in nance and credit
 
-### :woman_astronaut: `Experience`
+### 👩‍🚀 `Experience`
 ***
 * **Designer** *(2016 ‐ 2019)*  
 Experience creating graphics and furniture design for clients in all sorts of fields. Develop advertasing content including catalogs, business cards, yers, product
@@ -74,7 +75,7 @@ Managed and maintained a portfolio of over 200 business clients
 Сreated a consolidated customer database for easy analysis
 
 
-### :1st_place_medal: `Certificates`
+### 🥇 `Certificates`
 ***
 
 * **Computer design**  
