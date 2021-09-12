@@ -25,6 +25,7 @@ Tech Stack:
 ![Vue](https://img.shields.io/badge/Vue-333333?style=for-the-badge&logo=vuedotjs)&nbsp;  
 
 Tools:  
+
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=for-the-badge&logo=visual-studio-code&logoColor=007ACC)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git)&nbsp;
 ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github)&nbsp;
@@ -32,6 +33,24 @@ Tools:
 ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=for-the-badge&logo=adobe-photoshop)&nbsp;
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=for-the-badge&logo=figma)&nbsp;
 ![Bash](https://img.shields.io/badge/-Bash-333333?style=for-the-badge&logo=gnubash)&nbsp;
+
+### :computer: Code examples  
+***
+Get the Middle Character
+
+	function getMiddle(s) {
+  	const middle = Math.floor(s.length / 2);
+  
+  	return s.length % 2 === 0 
+    	? `${s[middle - 1]}${s[middle]}`
+    	: s[middle]
+	}
+
+
+### :bar_chart: Statistic
+***  
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=elenafrontend&theme=nord&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 [phone]: tel:+79270337365 "mobile"
