@@ -70,3 +70,24 @@ Get the Middle Character
 * :school: **Academy of Public Administration** *(2004 ‐ 2009)*  
   BA in nance and credit
 
+### :woman_astronaut: `Experience`
+***
+* **Designer** *(2016 ‐ 2019)*  
+Experience creating graphics and furniture design for clients in all sorts of fields. Develop advertasing content including catalogs, business cards, yers, product
+packaging, books' covers and more.
+* **Sales manager** *(2011 ‐ 2015)*  
+Increased unit sales goals during the price increase
+Managed and maintained a portfolio of over 200 business clients
+Сreated a consolidated customer database for easy analysis
+
+
+### :1st_place_medal: `Certificates`
+***
+
+* **Computer design**  
+  *Continuing Professional Education and certication center*  
+  Сorel Draw, Photoshop, InDesigh, 3D Studio Max
+* **English**  
+  *International Center of Business Education*  
+  Pre-Intermediate level
+
