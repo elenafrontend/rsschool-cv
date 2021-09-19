@@ -1284,18 +1284,6 @@ body {
     align-items: center;
   }
 
-  &__logo {
-    margin-bottom: 25px;
-    color: $color-white;
-
-    opacity: 0;
-    transition: 0.5s;
-
-    &::before {
-      color: $color-white;
-    }
-  }
-
   &__slogan {
     max-width: 350px;
     margin: 0;
@@ -1364,6 +1352,25 @@ body {
       }
     }
   }
+}
+
+.contacts__logo {
+	display: inline-block;
+	margin-bottom: 25px;
+	opacity: 0;
+	transition: 1s;
+	transform: translateY(80%);
+
+	svg {
+		width: 100px;
+		height: auto;
+		fill: $color-white;
+	}
+
+	.st0, .st5 {
+		fill: none;
+		stroke: $color-white
+	}
 }
 
 .arrow-up {

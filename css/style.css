@@ -1423,18 +1423,6 @@ body {
           align-items: center;
 }
 
-.contacts__logo {
-  margin-bottom: 25px;
-  color: #ffffff;
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.contacts__logo::before {
-  color: #ffffff;
-}
-
 .contacts__slogan {
   max-width: 350px;
   margin: 0;
@@ -1512,6 +1500,27 @@ body {
 
 .contacts__link:hover::before, .contacts__link:hover.scroll-show::before {
   color: #5557d7;
+}
+
+.contacts__logo {
+  display: inline-block;
+  margin-bottom: 25px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(80%);
+          transform: translateY(80%);
+}
+
+.contacts__logo svg {
+  width: 100px;
+  height: auto;
+  fill: #ffffff;
+}
+
+.contacts__logo .st0, .contacts__logo .st5 {
+  fill: none;
+  stroke: #ffffff;
 }
 
 .arrow-up {
