@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gumerova Elena | Front-end Developer</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Information about my experience, education and projects">
+  <meta name="keywords" content="Front-end Developer, cv">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="">
+  <link rel="preload" href="css/normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="css/normalize.css">
+  </noscript>
+  <!-- svg иконочный шрифт -->
+  <link rel="stylesheet" href="css/iconsfont.css ">
+  <!-- слайдер -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- https://highlightjs.org/ - подсветка кода -->
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/paraiso-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="img/favicon.png" type="image/png" sizes="65x55">
+</head>
+
+<!-- 
+! Привет! Для облегчения проверки таска вывела все комменты
+! по каждому пункту проверки в консоль (вкладка Console в Chrome Devtools)
+-->
+
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo" href="#">E</a>
+
+      <button class="burger">
+        <span class="visually-hidden">Open menu</span>
+        <span class="burger__line"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#greeting">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#code">Code example</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#experience">Experience</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- greeting -->
+    <section class="greeting section" id="greeting">
+      <div class="container greeting__container">
+        <h1 class="visually-hidden">Gumerova Elena, Front-end developer</h1>
+        <p class="greeting__text scroll-item">
+          Hi, my name is <span class="text-color typed"></span>
+          <br>
+          I'm a Front-end Developer.
+        </p>
+        <a class="btn btn--big greeting__btn scroll-item" href="#about">Know more</a>
+      </div>
+    </section>
+    <!-- / greeting -->
+
+    <!-- about -->
+    <section class="about section" id="about">
+      <div class="container about__container">
+          <div class="about__photo scroll-item">
+            <figure class="about__photo-wrapper scroll-show">
+              <picture>
+                <source type="image/webp" srcset="img/compress/photo.webp">
+                <img src="img/photo.jpg" alt="Elena Gumerova photo">
+              </picture>
+            </figure>
+          </div>
+        <div class="scroll-item">
+          <div class="about__content scroll-show">
+            <h2 class="title">About Me</h2>
+            <p class="about__text text">I like to code things from scratch, and enjoy bringing ideas to life in the
+              browser. Interested in working on ambitious projects with positive people.</p>
+            <p class="about__text text">Skills can be taught, personality is inherent. I prefer to keep learning,
+              continue challenging myself and do interesting things.</p>
+            <a class="btn" href="https://elenafrontend.github.io/portfolio/Gumerova_Elena_Frontend_Developer.pdf"
+              target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / about -->
+
+    <!-- certificates -->
+    <section class="certificates section" id="certificates">
+      <div class="container container--m">
+        <h2 class="title certificates__title scroll-item">Certificates</h2>
+        <ul class="certificates__list">
+          <li class="certificates__item scroll-item">
+            <div class="certificates__card icon-language scroll-show">
+              <h3 class="certificates__name subtitle">English</h3>
+              <p class="certificates__company">International Center of Business Education</p>
+              <div class="certificates__description">
+                <p>Pre-Intermediate level</p>
+              </div>
+            </div>
+          </li>
+          <li class="certificates__item scroll-item">
+            <div class="certificates__card icon-file-code scroll-show">
+              <h3 class="certificates__name subtitle">Basics of programming</h3>
+              <p class="certificates__company">Innopolis</p>
+              <div class="certificates__description">
+                <p>Java, PHP</p>
+                <p>Web development</p>
+                <p>Database</p>
+                <p>Development methodologies</p>
+              </div>
+            </div>
+          </li>
+          <li class="certificates__item scroll-item">
+            <div class="certificates__card icon-paintbrush scroll-show">
+              <h3 class="certificates__name subtitle">Computer design</h3>
+              <p class="certificates__company">Continuing Professional Education and certification center</p>
+              <div class="certificates__description">
+                <p>Сorel Draw, Photoshop, InDesigh</p>
+                <p>3D Studio Max</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- / certificates -->
+
+    <!-- skills -->
+    <section class="skills section " id="skills">
+      <div class="skills__container swiper-container scroll-item">
+        <h2 class="visually-hidden">Skills</h2>
+        <ul class="skills__list swiper-wrapper">
+          <li class="skills__item swiper-slide icon-html">html</li>
+          <li class="skills__item swiper-slide icon-css">css</li>
+          <li class="skills__item swiper-slide icon-js">javascript</li>
+          <li class="skills__item swiper-slide icon-sass">sass</li>
+          <li class="skills__item swiper-slide icon-git">Git</li>
+          <li class="skills__item swiper-slide icon-figma">figma</li>
+          <li class="skills__item swiper-slide icon-photoshop">photoshop</li>
+          <li class="skills__item swiper-slide icon-terminal">terminal</li>
+        </ul>
+      </div>
+    </section>
+    <!-- / skills -->
+
+    <!-- code example -->
+    <section class="code-example" id="code">
+      <div class="container container--s">
+        <h2 class="code-example__title title scroll-item">Code example</h2>
+        <p class="code-example__subtitle subtitle scroll-item">Remove all vowels from the string</p>
+        <pre class="code-example__card scroll-item">
+          <code class="language-js">
+            function disemvowel(str) {
+
+              const vowels = ['a', 'e', 'i', 'o', 'u']
+              let resultStr = str;
+                
+              for(let i = 0; i &lt; str.length; i++) {
+                vowels.forEach((vowel) => {
+                  if (str[i].toLowerCase() === vowel) {
+                    resultStr = resultStr.replace(str[i], '')
+                  }
+                })
+              }
+              return resultStr;
+            }
+          </code>
+        </pre>
+      </div>
+    </section>
+    <!-- / code example -->
+
+    <!-- portfolio -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container container--m">
+        <h2 class="title portfolio__title scroll-item">My Recent Work</h2>
+        <p class="subtitle portfolio__subtitle scroll-item">Here are a few projects I've worked on recently. You can see
+          more
+          <a href="https://github.com/elenafrontend" title="Github elenafrontend" target="_blank">here</a>
+        </p>
+        <ul class="portfolio__list">
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img/compress/portfolio_1.jpg" alt="portfolio #1">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">App website</h3>
+                <p class="portfolio__card-description">sass, responsive, optimized, accessible, grid, flex, swiper</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://github.com/elenafrontend/layouts#projects">View
+                  project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img/compress/portfolio_2.jpg" alt="portfolio #2">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">Real estate agency</h3>
+                <p class="portfolio__card-description">responsive, accessible, flex, slick, svg</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://elenafrontend.github.io/layouts/to2rent/index.html">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img/compress/portfolio_3.jpg" alt="portfolio #3">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">Photo editor</h3>
+                <p class="portfolio__card-description">applying css filters to photos</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://elenafrontend.github.io/library/js/foto_editor/index.html">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img/compress/portfolio_4.jpg" alt="portfolio #4">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">Messenger</h3>
+                <p class="portfolio__card-description">allows to add and delete messages</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://elenafrontend.github.io/library/js/graphic_editor/index.html">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img/portfolio_5.png" alt="portfolio #5">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">Graphic editor</h3>
+                <p class="portfolio__card-description">you can draw a cat from squares</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://elenafrontend.github.io/library/js/graphic_editor/index.html">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="portfolio__item scroll-item">
+            <figure class="portfolio__card">
+              <div class="portfolio__card-img">
+                <img src="img//portfolio_6.png" alt="portfolio #6">
+              </div>
+              <figcaption class="portfolio__card-about">
+                <h3 class="portfolio__card-title subtitle">Animation</h3>
+                <p class="portfolio__card-description">some cartoons</p>
+                <a class="portfolio__card-link btn" target="_blank"
+                  href="https://elenafrontend.github.io/animation/air_journey/index.html">View project</a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- / portfolio -->
+
+    <!-- experience -->
+    <section class="experience section" id="experience">
+      <div class="container container--m">
+        <div class="experience__inner">
+
+          <h2 class="title experience__title scroll-item">My Education</h2>
+          <ul class="experience__list">
+            <li class="experience__item scroll-item">
+              <a class="experience__card scroll-show" href="https://htmlacademy.ru/program" target="_blank">
+                <div>
+                  <h3 class="experience__card-title subtitle">htmlacademy</h3>
+                  <p class="experience__card-date">
+                    <time datetime="2020-12">12/2020</time> - <time datetime="2021-03">03/2021</time>
+                  </p>
+                  <p class="experience__card-description">Training simulators of skills for web development: html, css,
+                    javascript, svg, less,
+                    animation.</p>
+                </div>
+              </a>
+            </li>
+            <li class="experience__item scroll-item">
+              <a class="experience__card scroll-show" href="https://stc.innopolis.university" target="_blank">
+                <div>
+                  <h3 class="experience__card-title subtitle">Innopolis</h3>
+                  <p class="experience__card-date"><time datetime="2020-11">11/2020</time>
+                  </p>
+                  <p class="experience__card-description">Basics of programming: java, php, database, development
+                    methodologies</p>
+                </div>
+              </a>
+            </li>
+            <li class="experience__item scroll-item">
+              <a class="experience__card scroll-show"
+                href="https://www.coursera.org/specializations/razrabotka-interfeysov" target="_blank">
+                <div>
+                  <h3 class="experience__card-title subtitle">Coursera - Yandex</h3>
+                  <p class="experience__card-date"><time datetime="2020-05">05/2020</time> - <time
+                      datetime="2020-06">06/2020</time>
+                  </p>
+                  <p class="experience__card-description">Courses: Basics of html and css, Subtleties of layout</p>
+                  <!-- <p>Interface development: layout and JavaScript</p> -->
+                </div>
+              </a>
+            </li>
+            <li class="experience__item scroll-item">
+              <a class="experience__card scroll-show"
+                href="https://wikipedia.tel/%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B8_%D0%BC%D1%83%D0%BD%D0%B8%D1%86%D0%B8%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BF%D1%80%D0%B8_%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B5_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD"
+                target="_blank">
+                <div>
+                  <h3 class="experience__card-title subtitle">Academy of Public Administration</h3>
+                  <p class="experience__card-date"><time datetime="2004">2004</time> - <time datetime="2009">2009</time>
+                  </p>
+                  <p class="experience__card-description">B.A. in finance and credit</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience__inner">
+
+          <h2 class="title experience__title scroll-item">My Experience</h2>
+          <ul class="experience__list">
+            <li class="experience__item scroll-item">
+              <div class="experience__card scroll-show">
+                <h3 class="experience__card-title subtitle">Designer</h3>
+                <p class="experience__card-date"><time datetime="2016">2016</time> - <time datetime="2019">2019</time>
+                </p>
+                <p class="experience__card-description"> individual projects: experience in interior, furniture and
+                  graphic design
+                </p>
+              </div>
+            </li>
+            <li class="experience__item scroll-item">
+              <div class="experience__card scroll-show">
+                <h3 class="experience__card-title subtitle">Sales manager</h3>
+                <p class="experience__card-date"><time datetime="2011">2011</time> - <time datetime="2015">2015</time>
+                </p>
+                <p class="experience__card-description"> sales, record-keeping, marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- / experience -->
+  </main>
+
+  <!-- contacts -->
+  <footer class="contacts section" id="contacts">
+    <div class="container container--s contacts__container">
+      <!-- <a class="logo contacts__logo scroll-item" href="#">E</a> -->
+      <a class="arrow-up" href="#about">
+      </a>
+      <p class="contacts__slogan scroll-item">Living, learning, & leveling up one day at a time.</p>
+      <ul class="contacts__list scroll-item">
+        <li>
+          <a class="contacts__link icon-email scroll-show" href="mailto:elenafrontend@ya.ru" target="_blank"
+            title="elenafrontend@ya.ru">
+            <span class="visually-hidden">email</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts__link icon-phone scroll-show" href="tel:+79270337365" target="_blank"
+            title="+7 9270 33 73 65">
+            <span class="visually-hidden">phone</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts__link icon-telegram scroll-show" href="https://t.me/gumelena" target="_blank"
+            title="gumelena">
+            <span class="visually-hidden">telegram</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts__link icon-linkedin scroll-show" href="https://www.linkedin.com/in/elenafrontend/"
+            target="_blank" title="elenafrontend">
+            <span class="visually-hidden">linkedin</span>
+          </a>
+        </li>
+        <li>
+          <a class="contacts__link icon-github scroll-show" href="https://github.com/elenafrontend" target="_blank"
+            title="elenafrontend">
+            <span class="visually-hidden">github</span>
+          </a>
+        </li>
+      </ul>
+      <div class="copyright"><span>&copy;</span> 2021 - Template developed by <a href="">elenafrontend</a></div>
+    </div>
+  </footer>
+  <!-- / contacts -->
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="js/typed.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/vanilla-tilt.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
