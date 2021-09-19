@@ -852,27 +852,27 @@ body {
 
 // === CODE EXAMPLE ===
 .code-example {
-	background-color: $color-grey;
+  background-color: $color-grey;
 }
 
 .code-example__title,
 .code-example__subtitle,
 .code-example__card {
-	opacity: 0;
-	transform: translateY(100%);
-	transition: 1.2s ease-in-out;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 1.2s ease-in-out;
 }
 
 .code-example__card {
-	@extend %shadow;
+  @extend %shadow;
 
-	transform: translateY(30%);
-	transition: 1.2s ease-in-out;
-	background-color: $color-white;
+  transform: translateY(30%);
+  transition: 1.2s ease-in-out;
+  background-color: $color-white;
 
-	code {
-		background-color: $color-white;
-	}
+  code {
+    background-color: $color-white;
+  }
 }
 
 // === / CODE EXAMPLE ===
@@ -1355,22 +1355,22 @@ body {
 }
 
 .contacts__logo {
-	display: inline-block;
-	margin-bottom: 25px;
-	opacity: 0;
-	transition: 1s;
-	transform: translateY(80%);
+  display: inline-block;
+  margin-bottom: 25px;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(80%);
 
-	svg {
-		width: 100px;
-		height: auto;
-		fill: $color-white;
-	}
+  svg {
+    width: 100px;
+    height: auto;
+    fill: $color-white;
+  }
 
-	.st0, .st5 {
-		fill: none;
-		stroke: $color-white
-	}
+  .st0, .st5 {
+    fill: none;
+    stroke: $color-white
+  }
 }
 
 .arrow-up {
